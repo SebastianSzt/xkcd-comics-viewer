@@ -1,5 +1,5 @@
 # xkcd-comics-viewer
-A Node.js application that fetches xkcd comics using their API and generates an HTML page.
+A Node.js application that reads comic numbers from a file named `nr.txt`, fetches the corresponding xkcd comics using their API, and generates an HTML page.
 
 ## Installation
 
@@ -27,4 +27,5 @@ A Node.js application that fetches xkcd comics using their API and generates an 
 
 - Node.js
 - npm
-- web browser
+- Web browser
+- `nr.txt` file containing comics numbers
