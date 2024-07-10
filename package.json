@@ -1,0 +1,17 @@
+{
+  "name": "xkcd-comic-viewer",
+  "version": "1.0.0",
+  "description": "A Node.js application that fetches xkcd comics using their API and generates HTML page.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Sebastian Sztankowski",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "open": "^10.1.0"
+  }
+}
