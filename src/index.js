@@ -35,9 +35,9 @@ async function fetchDataForNumbers(numbers) {
 
 function generateHTMLContent(comics) {
     return comics.map(comic => `
-        <div>
+        <div class="col-12 mb-3 text-center comic">
             <h2>${comic.title}</h2>
-            <img src="${comic.img}" alt="${comic.alt}">
+            <img src="${comic.img}" alt="${comic.alt}" class="img-fluid">
         </div>
     `).join('');
 }
@@ -60,7 +60,6 @@ async function main() {
                 }
                 const open = (await import('open')).default;
                 open('output.html');
-                console.log("HTML file generated successfully and opened in your default browser!");
             });
         });
     } catch (error) {

@@ -1,5 +1,5 @@
 {
-  "name": "xkcd-comic-viewer",
+  "name": "xkcd-comics-viewer",
   "version": "1.0.0",
   "description": "A Node.js application that fetches xkcd comics using their API and generates HTML page.",
   "main": "src/index.js",
